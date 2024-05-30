@@ -6,7 +6,7 @@ import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @SpringBootApplication
-//@EnableCaching
+@EnableCaching
 public class StudentManagerApplication {
 
     public static void main(String[] args) {
